@@ -1,9 +1,10 @@
 #!/bin/bash
 
-NAME="JOHN"
+# NAME="JOHN"
 SURNAME="DOE"
 AGE=25
 FOOD="PIZZA"
+
 
 AGE_NEXT=$(("$AGE"+1))
 
