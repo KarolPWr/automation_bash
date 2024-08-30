@@ -1,0 +1,9 @@
+# Tutorial do AWK
+https://www.grymoire.com/Unix/Awk.html
+
+# Oficjalny tutorial do AWK
+http://doc.cat-v.org/unix/v8/awktut.pdf
+
+# Kompozycja z urandom
+https://blog.robertelder.org/bash-one-liner-compose-music/
+
