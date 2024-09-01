@@ -14,7 +14,3 @@ mkdir -p $destination
 cp -r "$soruce" "$destination"  # Error: Variable "soruce" is incorrect, 
 
 
-VAR=5
-if [ "$VAR" -gt 3 ]; then
-    echo "The number is greater than 3"
-fi

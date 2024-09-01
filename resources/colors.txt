@@ -1,0 +1,2 @@
+# Wszystkie dostępne kolory:
+https://stackoverflow.com/questions/30577923/how-to-show-all-colors-supported-by-bash
