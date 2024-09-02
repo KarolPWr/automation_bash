@@ -1,0 +1,24 @@
+Update the package index by running:
+
+bash
+sudo apt update
+
+Install the required dependencies by running:
+
+bash
+sudo apt install software-properties-common apt-transport-https wget
+
+Import the Microsoft GPG key to verify the integrity of the packages by running:
+
+bash
+wget -q https://packages.microsoft.com/keys/microsoft.asc -O- | sudo apt-key add -
+
+Enable the Visual Studio Code repository by running:
+
+bash
+sudo add-apt-repository "deb [arch=amd64] https://packages.microsoft.com/repos/vscode stable main"
+
+Install Visual Studio Code by running:
+
+bash
+sudo apt install code
