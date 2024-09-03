@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # Define variables
-source_dir="/home/user/projects"
-backup_dir="/backups/projects"
+source_dir="/tmp/projects"
+backup_dir="/tmp/backups"
 current_date=$(date +%Y-%m-%d)
 backup_destination="$backup_dir/projects_backup_$current_date"
 
