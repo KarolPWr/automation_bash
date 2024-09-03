@@ -7,3 +7,5 @@
 
 # Np. dla liczby 27:
 # Ala ma 27 kotów
+
+# BONUS: Czy da się napisać ten skrypt dla dowolnej, dodatniej liczby całkowitej? 

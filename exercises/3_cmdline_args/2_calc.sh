@@ -11,3 +11,4 @@
 # 45 
 
 # Obsługiwane operacje: dodawanie i odejmowanie
+# BONUS - co się stanie jeśli spróbujemy użyć innych operacji matematycznych?
