@@ -10,3 +10,6 @@
 # 118 seconds remaining
 # 117 seconds remaining
 # 116 seconds remaining
+# ...
+# 0 seconds remaining
+# Break over

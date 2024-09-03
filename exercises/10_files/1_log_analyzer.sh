@@ -16,4 +16,3 @@
 # if [[ $string == *"My long"* ]]; then
 #   echo "It's there!"
 # fi
-

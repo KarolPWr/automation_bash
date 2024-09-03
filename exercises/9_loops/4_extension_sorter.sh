@@ -1,10 +1,10 @@
 #!/bin/bash
 
 # Sortowanie plików 
-# Mając następujące pliki w ścieżce ~/workspace/ex:
-# 1.pdf 2.jpg 3.png 4.abcd
+# Mając następujące pliki w ścieżce exercises/9_loops/4_files:
+# 1.pdf 2.jpg 3.txt 4.abcd
 
-# Posegreguj je biorąc pod uwagę extension i przenieś do nowych folderów. Czyli w ~/workspace/9_loops pojawią się foldery:
+# Posegreguj je biorąc pod uwagę extension i przenieś do nowych folderów. Czyli w exercises/9_loops/4_files pojawią się foldery:
 # .pdf .jpg .png .abcd
 
 # A w folderach znajdą się pliki z odpowiednim rozszerzeniem
@@ -14,6 +14,8 @@
 
 # Jak dostać extension pliku?
 # extension=”${file##* .}” 
+
+# Porada: przed zastosowaniem prawdziwych komend, sprawdź mniej inwazyjnymi komendami (np. echo, ls) czy skrypt robi to co trzeba i przyjmuje prawidłowe zmienne
 
 
 

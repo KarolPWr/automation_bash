@@ -17,7 +17,8 @@
 # PORADA: Zanim zaczniesz implementować rozwiązanie z prawdziwymi funkcjami, możesz użyć $ echo "BACKUP W TAR" jako placeholder. 
 # Gdy zadziała poprawnie, podmienisz na prawdziwą metodę. 
 
-
+# Żeby było łatwiej i szybciej się testowało, możesz zamiast argumentów pozycyjnych
+# zapisać scieżki w zmiennych, jak w poprzednim zadaniu. 
 
 
 #!/bin/bash
