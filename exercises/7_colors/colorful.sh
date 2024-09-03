@@ -1,5 +1,17 @@
 #!/bin/bash
 
+
+# Zamień output dowolnego poprzedniego zadania na kolorowy. 
+# Im bardziej kolorowy, tym lepiej.
+
+# BONUS: zainstaluj komendę lolcat 
+# $ apt  install lolcat
+# Przetestuj jej działa nie na komendach systemowych i na poprzednich zadaniach. 
+# Możesz również zainstalować program $ sl i zobaczyć co się stanie... 
+# W jakim celu w ogóle go stworzono?
+
+# BONUS: dlaczego definicje kolorów są tak dziwne? 
+
 export COLOR_NC='\e[0m' # No Color
 
 export COLOR_BLACK='\e[0;30m'

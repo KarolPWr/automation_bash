@@ -1,8 +1,8 @@
 #!/bin/bash
 
-# Script to display different greeting messages based on user input
+# Wyświetlanie powitania na podstawie user inputu
 
-# source: https://kodekloud.com/blog/bash-getopts/ 
+
 
 case $1 in
   morning)

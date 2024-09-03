@@ -1,17 +1,17 @@
 #!/usr/bin/env bash
 
-# “a” and “arga” have optional arguments with default values.
-# “b” and “argb” have no arguments, acting as sort of a flag.
-# “c” and “argc” have required arguments.
+# “a” i “arga” mają argumenty opcjonalne z wartościami domyślnymi 
+# “b” i “argb” bez argumentów, działają jako flagi
+# “c” i “argc” mają required arguments
 
-# set an initial value for the flag
+# Wartość początkowa dla flagi
 ARG_B=0
 
-# read the options
+# Odczytanie opcji
 TEMP=`getopt -o a::bc: --long arga::,argb,argc: -n 'test.sh' -- "$@"`
 eval set -- "$TEMP"
 
-# extract options and their arguments into variables.
+# Konwersja opcji i argumentów na zmienne 
 while true ; do
     case "$1" in
         -a|--arga)
@@ -30,9 +30,8 @@ while true ; do
     esac
 done
 
-# do something with the variables -- in this case the lamest possible one :-)
+# Jakiekolwiek operacje na zmiennych
 echo "ARG_A = $ARG_A"
 echo "ARG_B = $ARG_B"
 echo "ARG_C = $ARG_C"
 
-# source: https://www.bahmanm.com/2015/01/command-line-options-parse-with-getopt.html

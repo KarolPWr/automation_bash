@@ -16,5 +16,5 @@ my_array[1]=updated_value  # Zmienia drugi element
 
 unset my_array[1]  # Usuwa drugi element
 
-# Merge two arrays
+# Mergowanie dwóch tablic
 combined_array=( "${array1[@]}" "${array2[@]}" ) 

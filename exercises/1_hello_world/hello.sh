@@ -1,8 +1,6 @@
-#!/bin/touch
+# 1. Napisz program eyświetlający "Hello World!"
 
+# 2. Zamień shebang z pierwszej linijki na inny program ze ścieżki bin:
 # /bin/cat
 # /bin/touch
-
-echo "Hello World!"
-
-exit 0
+# Co się dzieje i dlaczego? 

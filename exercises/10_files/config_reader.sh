@@ -4,7 +4,7 @@
 #    printf '%s\n' "$line"
 # done < "config.txt"
 
-# src: https://www.youtube.com/watch?v=yo2i7UdNmiY
+
 while IFS='= ' read -r key value; do
    echo "Key: $key Value: $value"
 done < "config.txt"

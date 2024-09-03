@@ -1,5 +1,13 @@
 #!/bin/bash
 
+
+# Dopisz brakującą logikę do skryptu implementującego “wieczne” menu 
+
+# Pętla while
+# Read na user input 
+# Odpowiednie logowanie/ powiadomienia dla usera
+
+
 # Function to display the menu
 show_menu() {
     echo "----------------------------------"
@@ -19,26 +27,21 @@ show_menu() {
 
     case $choice in
         1)
-            echo "Current date and time: $(date)"
+            date
             ;;
         2)
-            echo "Files in the current directory:"
             ls -l
             ;;
         3)
-            echo "Disk usage:"
             df -h
             ;;
         4)
-            echo "Free memory:"
             free -h
             ;;
         5)
-            echo "Exiting the script. Goodbye!"
             break
             ;;
         *)
-            echo "Invalid option, please try again."
             ;;
     esac
 

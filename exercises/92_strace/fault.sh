@@ -4,6 +4,7 @@
 ### Zadanie ###
 # W skrypcie jest kilka błędów. Spróbuj rozwiązać wszystkie przez użycie programu $ strace. 
 # Przetestuj jak działa filtrowanie syscalli oraz flaga -f.
+
 VAR = "444"
 
 mkdir /tmp/testdir

@@ -1,14 +1,14 @@
-#!/bin/bash
+# Napisz skrypt, zadeklaruj w nim 4 zmienne:
 
-# NAME="JOHN"
-SURNAME="DOE"
-AGE=25
-FOOD="PIZZA"
+# Imię
+# Nazwisko
+# Wiek
+# Ulubione jedzenie
+# (informacje nie muszą być prawdziwe)
 
+# Następnie wyświetl na terminalu:
+# Hello, my name is <Imię nazwisko>
+# I’m <wiek> years old
+# I will be <wiek za rok> next year
+# My fav food is: <jedzenie> 
 
-AGE_NEXT=$(("$AGE"+1))
-
-echo "Full name: $NAME $SURNAME"
-echo "Current age: $AGE"
-echo "Age next year: $AGE_NEXT"
-echo "Favorite food: $FOOD"

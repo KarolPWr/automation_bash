@@ -1,0 +1,9 @@
+#!/bin/bash
+
+# Napisz grę “Zgadywanie liczby” 
+# Program wybiera liczbę od 1 do 100
+# Użytkownik zgaduje jaka liczba została wybrana
+# Po każdej odpowiedzi uzytkownik dostaje informację czy jego próba zgadnięcia jest większa czy mniejsza od tego co wymyślił program
+# Jeśli użytkownik zgadł - wyświetl komunikat i zakończ program
+
+
