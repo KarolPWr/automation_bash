@@ -1,8 +1,14 @@
-# Zmodyfikuj poprzedni skrypt. Daj użytkownikowi możliwość spakowania plików różnymi programami:
+
+# Twoim zadaniem jest stworzenie skryptu bash, który zautomatyzuje proces tworzenia kopii zapasowych plików projektów z katalogu /tmp/projects do katalogu /tmp/backups 
+# Jeśli nie ma tych ścieżek, stwórz je przez $ mkdir 
+
+# Daj użytkownikowi możliwość spakowania plików różnymi programami:
 # tar
 # gzip
 # Xz
 
+
+# PRZYKŁADY poleceń:
 # backup w tar:
 # tar -cvf "$DEST_DIR/backup.tar" -C "$BACKUP_DIR" .
 
@@ -12,13 +18,8 @@
 # backup w xz:
 # tar -cJvf "$DEST_DIR/backup.tar.xz" -C "$BACKUP_DIR" .
 
-# Możliwa implementacja: przekazanie argumentu pozycyjnego do struktury case. 
-
 # PORADA: Zanim zaczniesz implementować rozwiązanie z prawdziwymi funkcjami, możesz użyć $ echo "BACKUP W TAR" jako placeholder. 
 # Gdy zadziała poprawnie, podmienisz na prawdziwą metodę. 
-
-# Żeby było łatwiej i szybciej się testowało, możesz zamiast argumentów pozycyjnych
-# zapisać scieżki w zmiennych, jak w poprzednim zadaniu. 
 
 
 #!/bin/bash

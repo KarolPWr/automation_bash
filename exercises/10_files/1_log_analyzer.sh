@@ -7,8 +7,8 @@
 
 # Skrypt przygotowuje statystyki:
 # Liczba log entries (linijek logu)
-# Ile ERROR?
-# Ile NOTICE?
+# Ile error?
+# Ile notice?
 
 
 # # Metoda na sprawdzenie czy SUBSTRING zawiera się w STRING (np. czy TEST zawiera się w TESTOWANIE)

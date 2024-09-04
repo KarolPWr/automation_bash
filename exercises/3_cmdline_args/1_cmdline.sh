@@ -3,7 +3,7 @@
 # Wypisz także liczbę argumentów oraz nazwę skryptu.
 
 # Przykładowy output skryptu:
-# Hello from <NAZWA>!
+# Hello from <NAZWA SKRYPTU>!
 # First argument: <IMIE NAZWISKO>
 # Number or arguments: <LICZBA ARGUMENTOW>
 # All arguments: <wszystkie przesłane argumenty>

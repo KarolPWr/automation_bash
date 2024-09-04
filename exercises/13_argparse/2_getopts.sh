@@ -1,6 +1,9 @@
 #!/bin/bash
 
 OPTSTRING=":x:y:"
+# : -> początek ptstringu
+# x: -> definiujemy argument x, : oznacza że potrzebuje on argumentu
+# y: -> to samo co wyżej
 
 while getopts ${OPTSTRING} opt; do
   case ${opt} in
@@ -11,7 +14,7 @@ while getopts ${OPTSTRING} opt; do
       echo "Option -y was triggered, Argument: ${OPTARG}"
       ;;
     :)
-      echo "Option -${OPTARG} requires an argument."
+      echo "Option -${OPTARG} requires an argument."  # Gdy wpiszemy np. samo -x, bez argumentu
       exit 1
       ;;
     ?)
