@@ -16,7 +16,8 @@ show_menu() {
 
 
     show_menu
-
+while true; do
+    read -p "enter option:" choice
     case $choice in
         1)
             echo "Current date and time: $(date)"
@@ -42,5 +43,6 @@ show_menu() {
             ;;
     esac
 
+done
     echo -n "Press Enter to continue..."
     read

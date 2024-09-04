@@ -21,4 +21,8 @@ export COLOR_WHITE='\e[1;37m'
 
 printf "I ${COLOR_RED}love${COLOR_GREEN} Stack${COLOR_NC} Overflow\n"
 
+# printf "format-string" arguments
 
+name="Janusz"
+age=30
+printf "My ${COLOR_RED}name is %s ${COLOR_GREEN}and I ${COLOR_NC}am %d years old.\n" "$name" "$age"

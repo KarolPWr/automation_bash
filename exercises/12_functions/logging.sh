@@ -23,14 +23,12 @@ log_error() {
 main() {
     log_info "Script started."
 
-    # Simulate an operation
     if [ -d "/some/directory" ]; then
         log_info "Directory exists."
     else
         log_error "Directory does not exist."
     fi
-
-    # Simulate another operation
+    
     if cp /some/nonexistentfile /some/destination/; then
         log_info "File copied successfully."
     else
