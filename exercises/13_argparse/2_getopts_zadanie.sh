@@ -7,4 +7,6 @@
 # $ loremipsum -t paragraphs -n 5 
 # ^ stworzy plik z 5 akapitami
 
-# Dodaj IF który pozwoli przekazać _tylko_ string ‘paragraphs’ lub ‘sentences’ do opcji -p
+# Możesz zaciągnąć funkcję loremipsum do pliku lub zdefiniować ją tutaj na nowo i wywoływać w obsłudze jednego z argumentów
+
+#Bonus: Dodaj IF który pozwoli przekazać _tylko_ string ‘paragraphs’ lub ‘sentences’ do opcji -p
