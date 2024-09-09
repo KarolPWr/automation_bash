@@ -1,7 +1,4 @@
-#!/bin/touch
-
-# /bin/cat
-# /bin/touch
+#!/bin/bash
 
 echo "Hello World!"
 

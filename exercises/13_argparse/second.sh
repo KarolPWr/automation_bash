@@ -1,14 +1,24 @@
 #!/bin/bash
 
-OPTSTRING=":x:y:"
+loremipsum () {
+if [ "${1}" = "" ] || [ "${2}" = "" ]; then
+    echo "Usage: loremipsum [paragraphs, sentences] [integer]"
+else
+    curl -s http://metaphorpsum.com/"${1}"/"${2}" #&& printf "\n"
+fi
+}
+
+OPTSTRING=":t:n:"
 
 while getopts ${OPTSTRING} opt; do
   case ${opt} in
-    x)
-      echo "Option -x was triggered, Argument: ${OPTARG}"
+    t)
+      echo "Option -t was triggered, Argument: ${OPTARG}"
+      TYPE=${OPTARG}
       ;;
-    y)
-      echo "Option -y was triggered, Argument: ${OPTARG}"
+    n)
+      echo "Option -n was triggered, Argument: ${OPTARG}"
+      NUMBER=${OPTARG}
       ;;
     :)
       echo "Option -${OPTARG} requires an argument."
@@ -20,3 +30,5 @@ while getopts ${OPTSTRING} opt; do
       ;;
   esac
 done
+
+loremipsum "$TYPE" "$NUMBER" > test.txt

@@ -6,8 +6,8 @@
 
 loremipsum () {
 if [ "${1}" = "" ] || [ "${2}" = "" ]; then
-echo "Usage: loremipsum [paragraphs, sentences] [integer]"
+    echo "Usage: loremipsum [paragraphs, sentences] [integer]"
 else
-curl -s http://metaphorpsum.com/"${1}"/"${2}" && printf "\n"
+    curl -s http://metaphorpsum.com/"${1}"/"${2}" #&& printf "\n"
 fi
 }

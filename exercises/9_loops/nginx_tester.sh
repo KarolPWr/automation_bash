@@ -18,12 +18,12 @@ for _ in $(seq 20)
 do 
 echo "Czekam 30 sekund na NGINX..."
 sleep 1
-if  systemctl status nginx 1>/dev/null 2>&1; then
-    echo "nginx uruchomiony"
-    exit 0
-else 
-    echo "nginx dalej nie działa"
-fi
+    if  systemctl status nginx 1>/dev/null 2>&1; then
+        echo "nginx uruchomiony"
+        exit 0
+    else 
+        echo "nginx dalej nie działa"
+    fi
 done
 
 

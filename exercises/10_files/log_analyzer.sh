@@ -47,17 +47,29 @@ while read -r line; do
     ((total_lines++))
 
     # zawiera ERROR?
-    if [[ "$line" == *"error"* ]]; then
+    if [[ "$line" == *"[error]"* ]]; then
         ((error_count++))
     fi
 
     # Zawiera NOTICE?
-    if [[ "$line" == *"notice"* ]]; then
+    if [[ "$line" == *"[notice]"* ]]; then
         ((notice_count++))
     fi
 done < "$PLIK"
 
 # Stats
 echo "Liczba linijek logu: $total_lines"
-echo "Liczba 'ERROR': $error_count"
-echo "Liczba 'NOTICE': $notice_count"
+echo "Liczba '[error]': $error_count"
+echo "Liczba '[notice]': $notice_count"
+
+
+# liczniki
+total_lines=0
+error_count=0
+notice_count=0
+
+while read -r line; do
+    ((total_lines++))
+
+???
+done < "$PLIK"
