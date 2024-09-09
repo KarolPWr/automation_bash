@@ -1,0 +1,28 @@
+https://github.com/awesome-lists/awesome-bash
+
+fd - lepszy find
+https://github.com/sharkdp/fd?tab=readme-ov-file#benchmark
+
+Bash cheatsheet
+https://devhints.io/bash
+
+Bash pitfalls
+https://mywiki.wooledge.org/BashPitfalls#for_f_in_.24.28ls_.2A.mp3.29
+
+Systemd timers
+https://documentation.suse.com/smart/systems-management/html/systemd-working-with-timers/index.html
+
+cheatsheet z regexami
+https://scilifelab.github.io/courses/ngsintro/1902/files/Bash_cheat_sheet_level2.pdf
+
+Generator regexów
+https://regexr.com/
+
+Dokumentacja (manpages etc.)
+https://linux.die.net/man/7/groff_man
+
+https://pandoc.org/
+
+String slicing
+https://tldp.org/LDP/abs/html/string-manipulation.html
+
